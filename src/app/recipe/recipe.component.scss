@@ -1,0 +1,44 @@
+.recipe-card {
+  background-color: darkgrey;
+  border: 2px solid orange;
+  padding: 10px;
+  width: 200px; /* Adjust width as needed */
+  margin: auto; /* Center the card */
+}
+
+.recipe-icon-large img {
+  display: block;
+  margin: auto; /* Center the recipe icon */
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+}
+
+.inputs-outputs-row {
+  display: flex;
+  justify-content: center; /* Center the contents horizontally */
+  align-items: center; /* Align the contents vertically */
+  gap: 10px; /* Space between the inputs, crafting time, and outputs */
+}
+
+.recipe-inputs, .recipe-outputs {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap if there's not enough space */
+  gap: 5px; /* Space between individual inputs/outputs */
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column; /* Stack the icon and count vertically */
+  align-items: center; /* Center align the icon and count */
+}
+
+.icon-container img {
+  width: 50px; // Adjust size as needed for inputs/outputs
+  height: auto;
+}
+
+.craft-time {
+  display: flex;
+  align-items: center; /* Align the arrow and time vertically */
+  gap: 5px; /* Space between the arrow and time */
+}

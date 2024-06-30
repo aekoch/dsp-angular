@@ -1,0 +1,23 @@
+<div class="recipe-card">
+  <div class="recipe-icon-large">
+    <img [src]="iconUrl(recipe)" alt="Recipe Icon">
+  </div>
+  <div class="inputs-outputs-row">
+    <div class="recipe-inputs">
+      <div *ngFor="let x of recipe.Inputs" class="icon-container">
+        <img src="DSP-Json/{{x.Item.IconPath}}.png"/>
+        <span class="icon-count">{{x.Count}}</span>
+      </div> 
+    </div>
+    <div class="craft-time">
+      <span>&rarr;</span>
+      <span>{{recipe.TimeSpend / 60}}s</span>
+    </div>
+    <div class="recipe-outputs">
+      <div *ngFor="let x of recipe.Outputs" class="icon-container">
+        <img src="DSP-Json/{{x.Item.IconPath}}.png"/>
+        <span class="icon-count">{{x.Count}}</span>
+      </div>
+    </div>
+  </div>
+</div>

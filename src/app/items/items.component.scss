@@ -1,0 +1,18 @@
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Creates a 10-item wide grid */
+  gap: 10px; /* Adjust the gap between grid items */
+  justify-content: center;
+  padding: 10px; /* Adds padding around the entire grid */
+  max-width: calc(64px * 10 + 10px * 9); /* Adjust based on item size and gap */
+  margin: 0 auto; /* Centers the grid in its parent */
+}
+
+.item-group + .item-group {
+  margin-top: 20px; /* Adds space between groups */
+}
+
+h2 {
+  text-align: center; /* Centers group titles */
+  color: lightblue;
+}

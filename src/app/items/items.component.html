@@ -1,0 +1,7 @@
+<div *ngFor="let type of objectKeys(itemsGroupedByType)" class="item-group">
+  <hr>
+  <h2>{{ type }}</h2>
+  <div class="items-grid">
+    <app-item *ngFor="let item of itemsGroupedByType[type]" [item]="item"></app-item>
+  </div>
+</div>

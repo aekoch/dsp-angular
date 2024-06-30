@@ -1,0 +1,7351 @@
+[
+  {
+    "ID": 1,
+    "Name": "Dyson Sphere Program",
+    "IconPath": "Icons/Tech/1",
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": []
+  },
+  {
+    "ID": 1001,
+    "Name": "Electromagnetism",
+    "IconPath": "Icons/Tech/1001",
+    "PreTechs": [
+      1
+    ],
+    "Recipes": [
+      7,
+      8,
+      48
+    ],
+    "MarginalCost": [
+      {
+        "id": 1202,
+        "count": 10
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      10
+    ],
+    "AddItems": [
+      2203,
+      2201,
+      2301
+    ],
+    "AddItemCounts": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "ID": 1002,
+    "Name": "Electromagnetic Matrix",
+    "IconPath": "Icons/Tech/1002",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      9,
+      10
+    ],
+    "MarginalCost": [
+      {
+        "id": 1202,
+        "count": 10
+      },
+      {
+        "id": 1301,
+        "count": 10
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      40
+    ],
+    "AddItems": [
+      2901
+    ],
+    "AddItemCounts": [
+      1
+    ]
+  },
+  {
+    "ID": 1101,
+    "Name": "High-Efficiency Plasma Control",
+    "IconPath": "Icons/Tech/1101",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      11,
+      12,
+      13
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 50
+      }
+    ],
+    "AddItems": [
+      1401
+    ],
+    "AddItemCounts": [
+      10
+    ]
+  },
+  {
+    "ID": 1102,
+    "Name": "Plasma Extract Refining",
+    "IconPath": "Icons/Tech/1102",
+    "PreTechs": [
+      1120,
+      1101
+    ],
+    "Recipes": [
+      14,
+      15,
+      16
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 1103,
+    "Name": "X-Ray Cracking",
+    "IconPath": "Icons/Tech/1103",
+    "PreTechs": [
+      1121,
+      1102
+    ],
+    "Recipes": [
+      58
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1104,
+    "Name": "Reformed Refinement",
+    "IconPath": "Icons/Tech/1104",
+    "PreTechs": [
+      1103
+    ],
+    "Recipes": [
+      121
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 500
+      },
+      {
+        "id": 6002,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 1111,
+    "Name": "Energy Matrix",
+    "IconPath": "Icons/Tech/1111",
+    "PreTechs": [
+      1102
+    ],
+    "Recipes": [
+      18
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1112,
+    "Name": "Hydrogen Fuel Rod",
+    "IconPath": "Icons/Tech/1112",
+    "PreTechs": [
+      1111
+    ],
+    "Recipes": [
+      19
+    ],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1113,
+    "Name": "Thruster",
+    "IconPath": "Icons/Tech/1113",
+    "PreTechs": [
+      1112
+    ],
+    "Recipes": [
+      20
+    ],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 1114,
+    "Name": "Reinforced Thruster",
+    "IconPath": "Icons/Tech/1114",
+    "PreTechs": [
+      1113
+    ],
+    "Recipes": [
+      21
+    ],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 1120,
+    "Name": "Fluid Storage Encapsulation",
+    "IconPath": "Icons/Tech/1120",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      114,
+      49
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 50
+      }
+    ],
+    "AddItems": [
+      2106
+    ],
+    "AddItemCounts": [
+      1
+    ]
+  },
+  {
+    "ID": 1121,
+    "Name": "Basic Chemical Engineering",
+    "IconPath": "Icons/Tech/1121",
+    "PreTechs": [
+      1120,
+      1102
+    ],
+    "Recipes": [
+      22,
+      23,
+      24
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1122,
+    "Name": "Polymer Chemical engineering",
+    "IconPath": "Icons/Tech/1122",
+    "PreTechs": [
+      1121
+    ],
+    "Recipes": [
+      25,
+      54
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1123,
+    "Name": "High-Strength Crystal",
+    "IconPath": "Icons/Tech/1123",
+    "PreTechs": [
+      1122
+    ],
+    "Recipes": [
+      26
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1124,
+    "Name": "Structure Matrix",
+    "IconPath": "Icons/Tech/1124",
+    "PreTechs": [
+      1123
+    ],
+    "Recipes": [
+      27
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1125,
+    "Name": "Casimir Crystal",
+    "IconPath": "Icons/Tech/1125",
+    "PreTechs": [
+      1124
+    ],
+    "Recipes": [
+      28,
+      29
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1126,
+    "Name": "High-Strength Glass",
+    "IconPath": "Icons/Tech/1126",
+    "PreTechs": [
+      1132
+    ],
+    "Recipes": [
+      30
+    ],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1131,
+    "Name": "Applied Superconductor",
+    "IconPath": "Icons/Tech/1131",
+    "PreTechs": [
+      1121
+    ],
+    "Recipes": [
+      31,
+      32
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1132,
+    "Name": "High-Strength Material",
+    "IconPath": "Icons/Tech/1132",
+    "PreTechs": [
+      1131
+    ],
+    "Recipes": [
+      33,
+      35
+    ],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 150
+      }
+    ]
+  },
+  {
+    "ID": 1133,
+    "Name": "Particle Control",
+    "IconPath": "Icons/Tech/1133",
+    "PreTechs": [
+      1132
+    ],
+    "Recipes": [
+      36,
+      62
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1134,
+    "Name": "Deuterium Fractionation",
+    "IconPath": "Icons/Tech/1134",
+    "PreTechs": [
+      1412,
+      1102
+    ],
+    "Recipes": [
+      110,
+      115
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 1141,
+    "Name": "Wave Function Interference",
+    "IconPath": "Icons/Tech/1141",
+    "PreTechs": [
+      1126,
+      1125
+    ],
+    "Recipes": [
+      38
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1142,
+    "Name": "Miniature Particle Collider",
+    "IconPath": "Icons/Tech/1142",
+    "PreTechs": [
+      1124
+    ],
+    "Recipes": [
+      39,
+      40
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1143,
+    "Name": "Strange Matter",
+    "IconPath": "Icons/Tech/1143",
+    "PreTechs": [
+      1142
+    ],
+    "Recipes": [
+      104
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 1144,
+    "Name": "Artificial Star",
+    "IconPath": "Icons/Tech/1144",
+    "PreTechs": [
+      1145
+    ],
+    "Recipes": [
+      43
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      },
+      {
+        "id": 6005,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 1145,
+    "Name": "Controlled Annihilation Reaction",
+    "IconPath": "Icons/Tech/1145",
+    "PreTechs": [
+      1506
+    ],
+    "Recipes": [
+      42,
+      44
+    ],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 4000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 1151,
+    "Name": "Proliferator Mk.I",
+    "IconPath": "Icons/Tech/1151",
+    "PreTechs": [
+      1311,
+      1101
+    ],
+    "Recipes": [
+      106,
+      109
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1152,
+    "Name": "Proliferator Mk.II",
+    "IconPath": "Icons/Tech/1152",
+    "PreTechs": [
+      1302,
+      1151
+    ],
+    "Recipes": [
+      107
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1153,
+    "Name": "Proliferator Mk.III",
+    "IconPath": "Icons/Tech/1153",
+    "PreTechs": [
+      1152,
+      1132
+    ],
+    "Recipes": [
+      108
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1201,
+    "Name": "Basic Assembling",
+    "IconPath": "Icons/Tech/1201",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      45
+    ],
+    "MarginalCost": [
+      {
+        "id": 1301,
+        "count": 10
+      },
+      {
+        "id": 1201,
+        "count": 10
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      40
+    ],
+    "AddItems": [
+      2303
+    ],
+    "AddItemCounts": [
+      1
+    ]
+  },
+  {
+    "ID": 1202,
+    "Name": "High-Speed Assembling",
+    "IconPath": "Icons/Tech/1202",
+    "PreTechs": [
+      1201,
+      1302
+    ],
+    "Recipes": [
+      46
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 1203,
+    "Name": "Quantum Printing",
+    "IconPath": "Icons/Tech/1203",
+    "PreTechs": [
+      1202,
+      1303
+    ],
+    "Recipes": [
+      47
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1302,
+    "Name": "Processor",
+    "IconPath": "Icons/Tech/1302",
+    "PreTechs": [
+      1311
+    ],
+    "Recipes": [
+      51
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1303,
+    "Name": "Quantum Chip",
+    "IconPath": "Icons/Tech/1303",
+    "PreTechs": [
+      1312,
+      1141
+    ],
+    "Recipes": [
+      52
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1304,
+    "Name": "Photon Spotlight Mining",
+    "IconPath": "Icons/Tech/1304",
+    "PreTechs": [
+      1303
+    ],
+    "Recipes": [
+      119
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1305,
+    "Name": "Mesoscopic Quantum Entanglement",
+    "IconPath": "Icons/Tech/1305",
+    "PreTechs": [
+      1303,
+      1143
+    ],
+    "Recipes": [
+      124
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 1311,
+    "Name": "Semiconductor Material",
+    "IconPath": "Icons/Tech/1311",
+    "PreTechs": [
+      1201
+    ],
+    "Recipes": [
+      53
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1312,
+    "Name": "Information Matrix",
+    "IconPath": "Icons/Tech/1312",
+    "PreTechs": [
+      1302,
+      1133
+    ],
+    "Recipes": [
+      55
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1401,
+    "Name": "Automatic Metallurgy",
+    "IconPath": "Icons/Tech/1401",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      56,
+      57
+    ],
+    "MarginalCost": [
+      {
+        "id": 1202,
+        "count": 10
+      },
+      {
+        "id": 1301,
+        "count": 10
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      40
+    ],
+    "AddItems": [
+      2302
+    ],
+    "AddItemCounts": [
+      3
+    ]
+  },
+  {
+    "ID": 1402,
+    "Name": "Smelting Purification",
+    "IconPath": "Icons/Tech/1402",
+    "PreTechs": [
+      1401
+    ],
+    "Recipes": [
+      34,
+      17,
+      59
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 1403,
+    "Name": "Crystal Smelting",
+    "IconPath": "Icons/Tech/1403",
+    "PreTechs": [
+      1402
+    ],
+    "Recipes": [
+      60,
+      61,
+      37
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 500
+      },
+      {
+        "id": 6002,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 1411,
+    "Name": "Steel Smelting",
+    "IconPath": "Icons/Tech/1411",
+    "PreTechs": [
+      1401
+    ],
+    "Recipes": [
+      63
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 120
+      }
+    ]
+  },
+  {
+    "ID": 1412,
+    "Name": "Thermal Power",
+    "IconPath": "Icons/Tech/1412",
+    "PreTechs": [
+      1201
+    ],
+    "Recipes": [
+      64
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 30
+      }
+    ],
+    "AddItems": [
+      2204
+    ],
+    "AddItemCounts": [
+      1
+    ]
+  },
+  {
+    "ID": 1413,
+    "Name": "Titanium Smelting",
+    "IconPath": "Icons/Tech/1413",
+    "PreTechs": [
+      1411
+    ],
+    "Recipes": [
+      65
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1414,
+    "Name": "High-Strength Titanium Alloy",
+    "IconPath": "Icons/Tech/1414",
+    "PreTechs": [
+      1413
+    ],
+    "Recipes": [
+      66
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 80
+      }
+    ]
+  },
+  {
+    "ID": 1415,
+    "Name": "Reclamation",
+    "IconPath": "Icons/Tech/1415",
+    "PreTechs": [
+      1411
+    ],
+    "Recipes": [
+      112
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1416,
+    "Name": "Mini Fusion Power Generation",
+    "IconPath": "Icons/Tech/1416",
+    "PreTechs": [
+      1134
+    ],
+    "Recipes": [
+      113,
+      41
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 500
+      },
+      {
+        "id": 6003,
+        "count": 250
+      }
+    ]
+  },
+  {
+    "ID": 1417,
+    "Name": "Plane-Filter Smelting",
+    "IconPath": "Icons/Tech/1417",
+    "PreTechs": [
+      1141
+    ],
+    "Recipes": [
+      116
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 1501,
+    "Name": "Solar Collection",
+    "IconPath": "Icons/Tech/1501",
+    "PreTechs": [
+      1402,
+      1002,
+      1201
+    ],
+    "Recipes": [
+      67
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ],
+    "AddItems": [
+      2205
+    ],
+    "AddItemCounts": [
+      1
+    ]
+  },
+  {
+    "ID": 1502,
+    "Name": "Photon Frequency Conversion",
+    "IconPath": "Icons/Tech/1502",
+    "PreTechs": [
+      1501
+    ],
+    "Recipes": [
+      68,
+      69
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1503,
+    "Name": "Solar Sail Orbit System",
+    "IconPath": "Icons/Tech/1503",
+    "PreTechs": [
+      1502
+    ],
+    "Recipes": [
+      70,
+      71
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 300
+      },
+      {
+        "id": 6002,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 1504,
+    "Name": "Ray Receiver",
+    "IconPath": "Icons/Tech/1504",
+    "PreTechs": [
+      1503
+    ],
+    "Recipes": [
+      72
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1505,
+    "Name": "Planetary Ionosphere Utilization",
+    "IconPath": "Icons/Tech/1505",
+    "PreTechs": [
+      1504
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 1506,
+    "Name": "Dirac Inversion Mechanism",
+    "IconPath": "Icons/Tech/1506",
+    "PreTechs": [
+      1505
+    ],
+    "Recipes": [
+      74
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 3000
+      },
+      {
+        "id": 6002,
+        "count": 3000
+      },
+      {
+        "id": 6003,
+        "count": 750
+      },
+      {
+        "id": 6004,
+        "count": 750
+      },
+      {
+        "id": 6005,
+        "count": 1500
+      }
+    ]
+  },
+  {
+    "ID": 1507,
+    "Name": "Universe Matrix",
+    "IconPath": "Icons/Tech/1507",
+    "PreTechs": [
+      1506
+    ],
+    "Recipes": [
+      75
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6004,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 1508,
+    "Name": "Mission Completed!",
+    "IconPath": "Icons/Tech/1508",
+    "PreTechs": [
+      1507
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 4000
+      }
+    ]
+  },
+  {
+    "ID": 1511,
+    "Name": "Energy Storage",
+    "IconPath": "Icons/Tech/1511",
+    "PreTechs": [
+      1403,
+      1501
+    ],
+    "Recipes": [
+      76
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1512,
+    "Name": "Interstellar Power Transmission",
+    "IconPath": "Icons/Tech/1512",
+    "PreTechs": [
+      1414,
+      1511
+    ],
+    "Recipes": [
+      77
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 120
+      }
+    ]
+  },
+  {
+    "ID": 1513,
+    "Name": "Geothermal Extraction",
+    "IconPath": "Icons/Tech/1513",
+    "PreTechs": [
+      1502
+    ],
+    "Recipes": [
+      118
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1521,
+    "Name": "High-Strength Lightweight Structure",
+    "IconPath": "Icons/Tech/1521",
+    "PreTechs": [
+      1503
+    ],
+    "Recipes": [
+      80,
+      81
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1522,
+    "Name": "Vertical Launching Silo",
+    "IconPath": "Icons/Tech/1522",
+    "PreTechs": [
+      1521
+    ],
+    "Recipes": [
+      82,
+      83
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 1523,
+    "Name": "Dyson Sphere Stress System",
+    "IconPath": "Icons/Tech/1523",
+    "Level": 1,
+    "MaxLevel": 6,
+    "PreTechs": [
+      1522
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 1601,
+    "Name": "Basic Logistics System",
+    "IconPath": "Icons/Tech/1601",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      84,
+      85,
+      86
+    ],
+    "MarginalCost": [
+      {
+        "id": 1301,
+        "count": 10
+      },
+      {
+        "id": 1201,
+        "count": 10
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      40
+    ],
+    "AddItems": [
+      2001,
+      2011
+    ],
+    "AddItemCounts": [
+      20,
+      5
+    ]
+  },
+  {
+    "ID": 1602,
+    "Name": "Upgraded Logistics System",
+    "IconPath": "Icons/Tech/1602",
+    "PreTechs": [
+      1601
+    ],
+    "Recipes": [
+      87,
+      88,
+      117
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ],
+    "AddItems": [
+      2020,
+      2012,
+      2030
+    ],
+    "AddItemCounts": [
+      1,
+      5,
+      5
+    ]
+  },
+  {
+    "ID": 1603,
+    "Name": "High-Efficiency Logistics System",
+    "IconPath": "Icons/Tech/1603",
+    "PreTechs": [
+      1602
+    ],
+    "Recipes": [
+      89,
+      90,
+      91
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 1604,
+    "Name": "Planetary Logistics System",
+    "IconPath": "Icons/Tech/1604",
+    "PreTechs": [
+      1603
+    ],
+    "Recipes": [
+      92,
+      93,
+      94
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1605,
+    "Name": "Interstellar Logistics System",
+    "IconPath": "Icons/Tech/1605",
+    "PreTechs": [
+      1604,
+      1414
+    ],
+    "Recipes": [
+      95,
+      96
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 120
+      }
+    ]
+  },
+  {
+    "ID": 1606,
+    "Name": "Gas Giants Exploitation",
+    "IconPath": "Icons/Tech/1606",
+    "PreTechs": [
+      1605,
+      1512
+    ],
+    "Recipes": [
+      111
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 1607,
+    "Name": "Integrated Logistics System",
+    "IconPath": "Icons/Tech/1607",
+    "PreTechs": [
+      1603
+    ],
+    "Recipes": [
+      120,
+      160
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 500
+      },
+      {
+        "id": 6003,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "ID": 1608,
+    "Name": "Distribution Logistics System",
+    "IconPath": "Icons/Tech/1608",
+    "PreTechs": [
+      1602
+    ],
+    "Recipes": [
+      122,
+      123
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 1701,
+    "Name": "Electromagnetic Drive",
+    "IconPath": "Icons/Tech/1701",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      97
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 50
+      }
+    ]
+  },
+  {
+    "ID": 1702,
+    "Name": "Magnetic Levitation",
+    "IconPath": "Icons/Tech/1702",
+    "PreTechs": [
+      1701
+    ],
+    "Recipes": [
+      98
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 1703,
+    "Name": "Magnetic Particle Trap",
+    "IconPath": "Icons/Tech/1703",
+    "PreTechs": [
+      1702
+    ],
+    "Recipes": [
+      99,
+      100
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1704,
+    "Name": "Gravitational Wave Refraction",
+    "IconPath": "Icons/Tech/1704",
+    "PreTechs": [
+      1143,
+      1703
+    ],
+    "Recipes": [
+      101,
+      78
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 1705,
+    "Name": "Gravity Matrix",
+    "IconPath": "Icons/Tech/1705",
+    "PreTechs": [
+      1303,
+      1704
+    ],
+    "Recipes": [
+      102,
+      79
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 1711,
+    "Name": "Super Magnetic Field Generator",
+    "IconPath": "Icons/Tech/1711",
+    "PreTechs": [
+      1702
+    ],
+    "Recipes": [
+      103
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 250
+      }
+    ]
+  },
+  {
+    "ID": 1712,
+    "Name": "Satellite Power Distribution System",
+    "IconPath": "Icons/Tech/1712",
+    "PreTechs": [
+      1711
+    ],
+    "Recipes": [
+      73
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1801,
+    "Name": "Weapon System",
+    "IconPath": "Icons/Tech/1801",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      125,
+      136
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 20
+      }
+    ],
+    "AddItems": [
+      1601
+    ],
+    "AddItemCounts": [
+      10
+    ]
+  },
+  {
+    "ID": 1802,
+    "Name": "Combustible Unit",
+    "IconPath": "Icons/Tech/1802",
+    "PreTechs": [
+      1401
+    ],
+    "Recipes": [
+      133
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 120
+      }
+    ]
+  },
+  {
+    "ID": 1803,
+    "Name": "Explosive Unit",
+    "IconPath": "Icons/Tech/1803",
+    "PreTechs": [
+      1123
+    ],
+    "Recipes": [
+      134
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1804,
+    "Name": "Crystal Explosive Unit",
+    "IconPath": "Icons/Tech/1804",
+    "PreTechs": [
+      1125
+    ],
+    "Recipes": [
+      135
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 1805,
+    "Name": "Engine",
+    "IconPath": "Icons/Tech/1805",
+    "PreTechs": [
+      1001
+    ],
+    "Recipes": [
+      105
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 20
+      }
+    ]
+  },
+  {
+    "ID": 1806,
+    "Name": "Missile Turret",
+    "IconPath": "Icons/Tech/1806",
+    "PreTechs": [
+      1805,
+      1801
+    ],
+    "Recipes": [
+      129,
+      144
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 150
+      }
+    ]
+  },
+  {
+    "ID": 1807,
+    "Name": "Implosion Cannon",
+    "IconPath": "Icons/Tech/1807",
+    "PreTechs": [
+      1806
+    ],
+    "Recipes": [
+      127,
+      139
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 300
+      },
+      {
+        "id": 6002,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 1808,
+    "Name": "Signal Tower",
+    "IconPath": "Icons/Tech/1808",
+    "PreTechs": [
+      1806
+    ],
+    "Recipes": [
+      131
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1809,
+    "Name": "Planetary Defense System",
+    "IconPath": "Icons/Tech/1809",
+    "PreTechs": [
+      1807
+    ],
+    "Recipes": [
+      126,
+      132
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1810,
+    "Name": "Jammer Tower",
+    "IconPath": "Icons/Tech/1810",
+    "PreTechs": [
+      1806
+    ],
+    "Recipes": [
+      130,
+      158
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1811,
+    "Name": "Plasma Turret",
+    "IconPath": "Icons/Tech/1811",
+    "PreTechs": [
+      1809
+    ],
+    "Recipes": [
+      128,
+      142,
+      157
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 1812,
+    "Name": "Titanium Ammo Box",
+    "IconPath": "Icons/Tech/1812",
+    "PreTechs": [
+      1801
+    ],
+    "Recipes": [
+      137
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1813,
+    "Name": "Superalloy Ammo Box",
+    "IconPath": "Icons/Tech/1813",
+    "PreTechs": [
+      1812
+    ],
+    "Recipes": [
+      138
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 1814,
+    "Name": "High-Explosive Shell Set",
+    "IconPath": "Icons/Tech/1814",
+    "PreTechs": [
+      1807
+    ],
+    "Recipes": [
+      140
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1815,
+    "Name": "Supersonic Missile Set",
+    "IconPath": "Icons/Tech/1815",
+    "PreTechs": [
+      1814
+    ],
+    "Recipes": [
+      145
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1816,
+    "Name": "Crystal Shell Set",
+    "IconPath": "Icons/Tech/1816",
+    "PreTechs": [
+      1815
+    ],
+    "Recipes": [
+      141
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1817,
+    "Name": "Gravity Missile Set",
+    "IconPath": "Icons/Tech/1817",
+    "PreTechs": [
+      1816
+    ],
+    "Recipes": [
+      146
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 1818,
+    "Name": "Antimatter Capsule",
+    "IconPath": "Icons/Tech/1818",
+    "PreTechs": [
+      1145,
+      1811
+    ],
+    "Recipes": [
+      143
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 3000
+      },
+      {
+        "id": 6002,
+        "count": 3000
+      },
+      {
+        "id": 6003,
+        "count": 3000
+      },
+      {
+        "id": 6004,
+        "count": 3000
+      },
+      {
+        "id": 6005,
+        "count": 3000
+      }
+    ]
+  },
+  {
+    "ID": 1819,
+    "Name": "Prototype",
+    "IconPath": "Icons/Tech/1819",
+    "PreTechs": [
+      1826
+    ],
+    "Recipes": [
+      147
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 1820,
+    "Name": "Precision Drone",
+    "IconPath": "Icons/Tech/1820",
+    "PreTechs": [
+      1819
+    ],
+    "Recipes": [
+      148
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 1821,
+    "Name": "Attack Drone",
+    "IconPath": "Icons/Tech/1821",
+    "PreTechs": [
+      1819
+    ],
+    "Recipes": [
+      149
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 500
+      },
+      {
+        "id": 6002,
+        "count": 500
+      },
+      {
+        "id": 6003,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 1822,
+    "Name": "Corvette",
+    "IconPath": "Icons/Tech/1822",
+    "PreTechs": [
+      1809,
+      1820
+    ],
+    "Recipes": [
+      150
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1823,
+    "Name": "Destroyer",
+    "IconPath": "Icons/Tech/1823",
+    "PreTechs": [
+      1822,
+      1821
+    ],
+    "Recipes": [
+      151
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      },
+      {
+        "id": 6005,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1824,
+    "Name": "Suppressing Capsule",
+    "IconPath": "Icons/Tech/1824",
+    "PreTechs": [
+      1810
+    ],
+    "Recipes": [
+      159
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1826,
+    "Name": "Battlefield Analysis Base",
+    "IconPath": "Icons/Tech/1826",
+    "PreTechs": [
+      1801,
+      1805
+    ],
+    "Recipes": [
+      152
+    ],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 1901,
+    "Name": "Digital Analog Computation",
+    "IconPath": "Icons/Tech/1901",
+    "PreTechs": [
+      1312
+    ],
+    "Recipes": [
+      153
+    ],
+    "MarginalCost": [
+      {
+        "id": 5201,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 1902,
+    "Name": "Matter Recombination",
+    "IconPath": "Icons/Tech/1902",
+    "PreTechs": [
+      1203
+    ],
+    "Recipes": [
+      154
+    ],
+    "MarginalCost": [
+      {
+        "id": 5201,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 1903,
+    "Name": "Negentropy Recursion",
+    "IconPath": "Icons/Tech/1903",
+    "PreTechs": [
+      1417
+    ],
+    "Recipes": [
+      155
+    ],
+    "MarginalCost": [
+      {
+        "id": 5201,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 1904,
+    "Name": "High-Density Controlled Annihilation",
+    "IconPath": "Icons/Tech/1904",
+    "PreTechs": [
+      1145
+    ],
+    "Recipes": [
+      156
+    ],
+    "MarginalCost": [
+      {
+        "id": 5201,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 2101,
+    "Name": "Mecha Core",
+    "IconPath": "Icons/Tech/2101",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 1101,
+        "count": 20
+      },
+      {
+        "id": 1104,
+        "count": 20
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      20
+    ]
+  },
+  {
+    "ID": 2102,
+    "Name": "Mecha Core",
+    "IconPath": "Icons/Tech/2102",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2101
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      },
+      {
+        "id": 6002,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 2103,
+    "Name": "Mecha Core",
+    "IconPath": "Icons/Tech/2103",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2102
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 300
+      },
+      {
+        "id": 6002,
+        "count": 300
+      },
+      {
+        "id": 6003,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 2104,
+    "Name": "Mecha Core",
+    "IconPath": "Icons/Tech/2104",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2103
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 500
+      },
+      {
+        "id": 6002,
+        "count": 500
+      },
+      {
+        "id": 6003,
+        "count": 500
+      },
+      {
+        "id": 6004,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 2105,
+    "Name": "Mecha Core",
+    "IconPath": "Icons/Tech/2105",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2104
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      },
+      {
+        "id": 6005,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 2106,
+    "Name": "Mecha Core",
+    "IconPath": "Icons/Tech/2106",
+    "Level": 6,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      2105
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 10000
+      }
+    ]
+  },
+  {
+    "ID": 2201,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2201",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 1203,
+        "count": 60
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      100
+    ]
+  },
+  {
+    "ID": 2202,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2202",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2201
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 2203,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2203",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2202
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 2204,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2204",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2203
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 2205,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2205",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2204
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 2206,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2206",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      2205
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 2207,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2207",
+    "Level": 7,
+    "MaxLevel": 7,
+    "PreTechs": [
+      2206
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 2208,
+    "Name": "Mechanical Frame",
+    "IconPath": "Icons/Tech/2208",
+    "Level": 8,
+    "MaxLevel": 8,
+    "PreTechs": [
+      2207
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6004,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 2301,
+    "Name": "Inventory Capacity",
+    "IconPath": "Icons/Tech/2301",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 1103,
+        "count": 120
+      },
+      {
+        "id": 1301,
+        "count": 120
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      100
+    ]
+  },
+  {
+    "ID": 2302,
+    "Name": "Inventory Capacity",
+    "IconPath": "Icons/Tech/2302",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2301
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 2303,
+    "Name": "Inventory Capacity",
+    "IconPath": "Icons/Tech/2303",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2302
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 2304,
+    "Name": "Inventory Capacity",
+    "IconPath": "Icons/Tech/2304",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2303
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 2305,
+    "Name": "Inventory Capacity",
+    "IconPath": "Icons/Tech/2305",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2304
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 2306,
+    "Name": "Inventory Capacity",
+    "IconPath": "Icons/Tech/2306",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      2305
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 2307,
+    "Name": "Inventory Capacity",
+    "IconPath": "Icons/Tech/2307",
+    "Level": 7,
+    "MaxLevel": 7,
+    "PreTechs": [
+      2306
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 1500
+      }
+    ]
+  },
+  {
+    "ID": 2401,
+    "Name": "Communication Control",
+    "IconPath": "Icons/Tech/2401",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 2402,
+    "Name": "Communication Control",
+    "IconPath": "Icons/Tech/2402",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2401
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 2403,
+    "Name": "Communication Control",
+    "IconPath": "Icons/Tech/2403",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2402
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 2404,
+    "Name": "Communication Control",
+    "IconPath": "Icons/Tech/2404",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2403
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 2405,
+    "Name": "Communication Control",
+    "IconPath": "Icons/Tech/2405",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2404
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 2406,
+    "Name": "Communication Control",
+    "IconPath": "Icons/Tech/2406",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      2405
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      },
+      {
+        "id": 6005,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 2407,
+    "Name": "Communication Control",
+    "IconPath": "Icons/Tech/2407",
+    "Level": 7,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      2406
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 72000
+      }
+    ]
+  },
+  {
+    "ID": 2501,
+    "Name": "Energy Circuit",
+    "IconPath": "Icons/Tech/2501",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 1030,
+        "count": 60
+      },
+      {
+        "id": 1006,
+        "count": 60
+      },
+      {
+        "id": 1109,
+        "count": 60
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      200
+    ]
+  },
+  {
+    "ID": 2502,
+    "Name": "Energy Circuit",
+    "IconPath": "Icons/Tech/2502",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2501
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 2503,
+    "Name": "Energy Circuit",
+    "IconPath": "Icons/Tech/2503",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2502
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 2504,
+    "Name": "Energy Circuit",
+    "IconPath": "Icons/Tech/2504",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2503
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 2505,
+    "Name": "Energy Circuit",
+    "IconPath": "Icons/Tech/2505",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2504
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 3000
+      },
+      {
+        "id": 6002,
+        "count": 3000
+      },
+      {
+        "id": 6003,
+        "count": 3000
+      },
+      {
+        "id": 6004,
+        "count": 3000
+      },
+      {
+        "id": 6005,
+        "count": 3000
+      }
+    ]
+  },
+  {
+    "ID": 2506,
+    "Name": "Energy Circuit",
+    "IconPath": "Icons/Tech/2506",
+    "Level": 6,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      2505
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 40000
+      }
+    ]
+  },
+  {
+    "ID": 2601,
+    "Name": "Drone Engine",
+    "IconPath": "Icons/Tech/2601",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 2602,
+    "Name": "Drone Engine",
+    "IconPath": "Icons/Tech/2602",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2601
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 2603,
+    "Name": "Drone Engine",
+    "IconPath": "Icons/Tech/2603",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2602
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 2604,
+    "Name": "Drone Engine",
+    "IconPath": "Icons/Tech/2604",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2603
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 2605,
+    "Name": "Drone Engine",
+    "IconPath": "Icons/Tech/2605",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2604
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      },
+      {
+        "id": 6005,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 2606,
+    "Name": "Drone Engine",
+    "IconPath": "Icons/Tech/2606",
+    "Level": 6,
+    "MaxLevel": 24,
+    "PreTechs": [
+      2605
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 50000
+      }
+    ]
+  },
+  {
+    "ID": 2701,
+    "Name": "Mass Construction",
+    "IconPath": "Icons/Tech/2701",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 1301,
+        "count": 100
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      100
+    ]
+  },
+  {
+    "ID": 2702,
+    "Name": "Mass Construction",
+    "IconPath": "Icons/Tech/2702",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2701
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 2703,
+    "Name": "Mass Construction",
+    "IconPath": "Icons/Tech/2703",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2702
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 500
+      },
+      {
+        "id": 6002,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 2704,
+    "Name": "Mass Construction",
+    "IconPath": "Icons/Tech/2704",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2703
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 2705,
+    "Name": "Mass Construction",
+    "IconPath": "Icons/Tech/2705",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2704
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 2801,
+    "Name": "Energy Shield",
+    "IconPath": "Icons/Tech/2801",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 2802,
+    "Name": "Energy Shield",
+    "IconPath": "Icons/Tech/2802",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2801
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      },
+      {
+        "id": 6002,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 2803,
+    "Name": "Energy Shield",
+    "IconPath": "Icons/Tech/2803",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2802
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      },
+      {
+        "id": 6003,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 2804,
+    "Name": "Energy Shield",
+    "IconPath": "Icons/Tech/2804",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2803
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 2805,
+    "Name": "Energy Shield",
+    "IconPath": "Icons/Tech/2805",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2804
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 2806,
+    "Name": "Energy Shield",
+    "IconPath": "Icons/Tech/2806",
+    "Level": 6,
+    "MaxLevel": 25,
+    "PreTechs": [
+      2805
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 20000
+      }
+    ]
+  },
+  {
+    "ID": 2807,
+    "Name": "Energy Shield",
+    "IconPath": "Icons/Tech/2807",
+    "Level": 26,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      2806
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 20000
+      }
+    ]
+  },
+  {
+    "ID": 2901,
+    "Name": "Drive Engine",
+    "IconPath": "Icons/Tech/2901",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 1006,
+        "count": 150
+      },
+      {
+        "id": 1407,
+        "count": 50
+      }
+    ],
+    "PropertyOverrideItems": [
+      6001
+    ],
+    "PropertyItemCounts": [
+      200
+    ]
+  },
+  {
+    "ID": 2902,
+    "Name": "Drive Engine",
+    "IconPath": "Icons/Tech/2902",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2901
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 2903,
+    "Name": "Drive Engine",
+    "IconPath": "Icons/Tech/2903",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2902
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 2904,
+    "Name": "Drive Engine",
+    "IconPath": "Icons/Tech/2904",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2903
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 2905,
+    "Name": "Drive Engine",
+    "IconPath": "Icons/Tech/2904",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2904
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 3000
+      },
+      {
+        "id": 6002,
+        "count": 3000
+      },
+      {
+        "id": 6003,
+        "count": 3000
+      },
+      {
+        "id": 6005,
+        "count": 3000
+      }
+    ]
+  },
+  {
+    "ID": 2906,
+    "Name": "Drive Engine",
+    "IconPath": "Icons/Tech/2906",
+    "Level": 6,
+    "MaxLevel": 100,
+    "PreTechs": [
+      2905
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 0
+      }
+    ]
+  },
+  {
+    "ID": 2951,
+    "Name": "Auto Reconstruction Marking",
+    "IconPath": "Icons/Tech/2951",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 2952,
+    "Name": "Auto Reconstruction Marking",
+    "IconPath": "Icons/Tech/2952",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      2951
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 2953,
+    "Name": "Auto Reconstruction Marking",
+    "IconPath": "Icons/Tech/2953",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      2952
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 2954,
+    "Name": "Auto Reconstruction Marking",
+    "IconPath": "Icons/Tech/2954",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      2953
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 2955,
+    "Name": "Auto Reconstruction Marking",
+    "IconPath": "Icons/Tech/2955",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      2954
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      },
+      {
+        "id": 6005,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 2956,
+    "Name": "Auto Reconstruction Marking",
+    "IconPath": "Icons/Tech/2956",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      2955
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 3200
+      }
+    ]
+  },
+  {
+    "ID": 3101,
+    "Name": "Solar Sail Life",
+    "IconPath": "Icons/Tech/3101",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 3102,
+    "Name": "Solar Sail Life",
+    "IconPath": "Icons/Tech/3102",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3101
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 3103,
+    "Name": "Solar Sail Life",
+    "IconPath": "Icons/Tech/3103",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3102
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 3104,
+    "Name": "Solar Sail Life",
+    "IconPath": "Icons/Tech/3104",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3103
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3105,
+    "Name": "Solar Sail Life",
+    "IconPath": "Icons/Tech/3105",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3104
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 3106,
+    "Name": "Solar Sail Life",
+    "IconPath": "Icons/Tech/3106",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      3105
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6004,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 3201,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3201",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 3202,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3202",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3201
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 3203,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3203",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3202
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3204,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3204",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3203
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 3205,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3205",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3204
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1400
+      },
+      {
+        "id": 6002,
+        "count": 1400
+      },
+      {
+        "id": 6003,
+        "count": 1400
+      },
+      {
+        "id": 6004,
+        "count": 1400
+      }
+    ]
+  },
+  {
+    "ID": 3206,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3206",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      3205
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      },
+      {
+        "id": 6005,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 3207,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3207",
+    "Level": 7,
+    "MaxLevel": 7,
+    "PreTechs": [
+      3206
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1800
+      },
+      {
+        "id": 6002,
+        "count": 1800
+      },
+      {
+        "id": 6003,
+        "count": 1800
+      },
+      {
+        "id": 6004,
+        "count": 1800
+      },
+      {
+        "id": 6005,
+        "count": 1800
+      }
+    ]
+  },
+  {
+    "ID": 3208,
+    "Name": "Ray Transmission Efficiency",
+    "IconPath": "Icons/Tech/3208",
+    "Level": 8,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      3207
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": -14000
+      }
+    ]
+  },
+  {
+    "ID": 3301,
+    "Name": "Sorter Cargo Stacking",
+    "IconPath": "Icons/Tech/3301",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 3302,
+    "Name": "Sorter Cargo Stacking",
+    "IconPath": "Icons/Tech/3302",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3301
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 3303,
+    "Name": "Sorter Cargo Stacking",
+    "IconPath": "Icons/Tech/3303",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3302
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 3304,
+    "Name": "Sorter Cargo Stacking",
+    "IconPath": "Icons/Tech/3304",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3303
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3305,
+    "Name": "Sorter Cargo Stacking",
+    "IconPath": "Icons/Tech/3305",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3304
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1500
+      },
+      {
+        "id": 6002,
+        "count": 1500
+      },
+      {
+        "id": 6003,
+        "count": 1500
+      }
+    ]
+  },
+  {
+    "ID": 3306,
+    "Name": "Sorter Cargo Integration",
+    "IconPath": "Icons/Tech/3306",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [
+      3305
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1800
+      },
+      {
+        "id": 6002,
+        "count": 1800
+      },
+      {
+        "id": 6003,
+        "count": 1800
+      }
+    ]
+  },
+  {
+    "ID": 3311,
+    "Name": "Pile Sorter Upgrade",
+    "IconPath": "Icons/Tech/3311",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 500
+      },
+      {
+        "id": 6002,
+        "count": 500
+      },
+      {
+        "id": 6003,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 3312,
+    "Name": "Pile Sorter Upgrade",
+    "IconPath": "Icons/Tech/3312",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3311
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 3313,
+    "Name": "Pile Sorter Upgrade",
+    "IconPath": "Icons/Tech/3313",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3312
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3314,
+    "Name": "Pile Sorter Upgrade",
+    "IconPath": "Icons/Tech/3314",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3313
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 3315,
+    "Name": "Pile Sorter Upgrade",
+    "IconPath": "Icons/Tech/3315",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3314
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1500
+      },
+      {
+        "id": 6002,
+        "count": 1500
+      },
+      {
+        "id": 6003,
+        "count": 1500
+      }
+    ]
+  },
+  {
+    "ID": 3316,
+    "Name": "Pile Sorter Upgrade",
+    "IconPath": "Icons/Tech/3316",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      3315
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 4001,
+    "Name": "Distribution Range",
+    "IconPath": "Icons/Tech/4001",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 4002,
+    "Name": "Distribution Range",
+    "IconPath": "Icons/Tech/4002",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      4001
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 4003,
+    "Name": "Distribution Range",
+    "IconPath": "Icons/Tech/4003",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      4002
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 4004,
+    "Name": "Distribution Range",
+    "IconPath": "Icons/Tech/4004",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      4003
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 4005,
+    "Name": "Distribution Range",
+    "IconPath": "Icons/Tech/4005",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      4004
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      },
+      {
+        "id": 6005,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 3401,
+    "Name": "Logistics Carrier Engine",
+    "IconPath": "Icons/Tech/3401",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 3402,
+    "Name": "Logistics Carrier Engine",
+    "IconPath": "Icons/Tech/3402",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3401
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 3403,
+    "Name": "Logistics Carrier Engine",
+    "IconPath": "Icons/Tech/3403",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3402
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 3404,
+    "Name": "Logistics Carrier Engine",
+    "IconPath": "Icons/Tech/3404",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3403
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3405,
+    "Name": "Logistics Carrier Engine",
+    "IconPath": "Icons/Tech/3405",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3404
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      },
+      {
+        "id": 6005,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 3406,
+    "Name": "Logistics Carrier Engine",
+    "IconPath": "Icons/Tech/3406",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      3405
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      },
+      {
+        "id": 6005,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 3407,
+    "Name": "Logistics Carrier Engine",
+    "IconPath": "Icons/Tech/3407",
+    "Level": 7,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      3406
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 72000
+      }
+    ]
+  },
+  {
+    "ID": 3501,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3501",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 3502,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3502",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3501
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 3503,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3503",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3502
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 3504,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3504",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3503
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3505,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3505",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3504
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1200
+      },
+      {
+        "id": 6002,
+        "count": 1200
+      },
+      {
+        "id": 6003,
+        "count": 1200
+      },
+      {
+        "id": 6004,
+        "count": 1200
+      }
+    ]
+  },
+  {
+    "ID": 3506,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3506",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      3505
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 3507,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3507",
+    "Level": 7,
+    "MaxLevel": 7,
+    "PreTechs": [
+      3506
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6004,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 3508,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3508",
+    "Level": 8,
+    "MaxLevel": 8,
+    "PreTechs": [
+      3507
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 4000
+      },
+      {
+        "id": 6002,
+        "count": 4000
+      },
+      {
+        "id": 6003,
+        "count": 4000
+      },
+      {
+        "id": 6004,
+        "count": 4000
+      },
+      {
+        "id": 6005,
+        "count": 4000
+      }
+    ]
+  },
+  {
+    "ID": 3509,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3509",
+    "Level": 9,
+    "MaxLevel": 11,
+    "PreTechs": [
+      3508
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": -12000
+      }
+    ]
+  },
+  {
+    "ID": 3510,
+    "Name": "Logistics Carrier Capacity",
+    "IconPath": "Icons/Tech/3510",
+    "Level": 12,
+    "MaxLevel": 13,
+    "PreTechs": [
+      3509
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": -36000
+      }
+    ]
+  },
+  {
+    "ID": 3801,
+    "Name": "Station Integrated Logistics",
+    "IconPath": "Icons/Tech/3801",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 8000
+      }
+    ]
+  },
+  {
+    "ID": 3802,
+    "Name": "Station Integrated Logistics",
+    "IconPath": "Icons/Tech/3802",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3801
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 16000
+      }
+    ]
+  },
+  {
+    "ID": 3803,
+    "Name": "Station Integrated Logistics",
+    "IconPath": "Icons/Tech/3803",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3802
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 24000
+      }
+    ]
+  },
+  {
+    "ID": 3601,
+    "Name": "Vein Utilization",
+    "IconPath": "Icons/Tech/3601",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 3602,
+    "Name": "Vein Utilization",
+    "IconPath": "Icons/Tech/3602",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3601
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3603,
+    "Name": "Vein Utilization",
+    "IconPath": "Icons/Tech/3603",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3602
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3604,
+    "Name": "Vein Utilization",
+    "IconPath": "Icons/Tech/3604",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3603
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 3605,
+    "Name": "Vein Utilization",
+    "IconPath": "Icons/Tech/3605",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3604
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6004,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 3606,
+    "Name": "Vein Utilization",
+    "IconPath": "Icons/Tech/3606",
+    "Level": 6,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      3605
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": -20000
+      }
+    ]
+  },
+  {
+    "ID": 3701,
+    "Name": "Vertical Construction",
+    "IconPath": "Icons/Tech/3701",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 3702,
+    "Name": "Vertical Construction",
+    "IconPath": "Icons/Tech/3702",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3701
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 3703,
+    "Name": "Vertical Construction",
+    "IconPath": "Icons/Tech/3703",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3702
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 3704,
+    "Name": "Vertical Construction",
+    "IconPath": "Icons/Tech/3704",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      3703
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3705,
+    "Name": "Vertical Construction",
+    "IconPath": "Icons/Tech/3705",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      3704
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 3706,
+    "Name": "Vertical Construction",
+    "IconPath": "Icons/Tech/3706",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      3705
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 3901,
+    "Name": "Research Speed",
+    "IconPath": "Icons/Tech/3901",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 3902,
+    "Name": "Research Speed",
+    "IconPath": "Icons/Tech/3902",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      3901
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6004,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 3903,
+    "Name": "Research Speed",
+    "IconPath": "Icons/Tech/3903",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      3902
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6004,
+        "count": 4000
+      }
+    ]
+  },
+  {
+    "ID": 3904,
+    "Name": "Research Speed",
+    "IconPath": "Icons/Tech/3904",
+    "Level": 4,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      3903
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": -24000
+      }
+    ]
+  },
+  {
+    "ID": 4101,
+    "Name": "Universe Exploration",
+    "IconPath": "Icons/Tech/4101",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "ID": 4102,
+    "Name": "Universe Exploration",
+    "IconPath": "Icons/Tech/4102",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      4101
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 4103,
+    "Name": "Universe Exploration",
+    "IconPath": "Icons/Tech/4103",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      4102
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 4104,
+    "Name": "Universe Exploration",
+    "IconPath": "Icons/Tech/4104",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      4103
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6004,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 5001,
+    "Name": "Kinetic Weapon Damage",
+    "IconPath": "Icons/Tech/5001",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 5002,
+    "Name": "Kinetic Weapon Damage",
+    "IconPath": "Icons/Tech/5002",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5001
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 5003,
+    "Name": "Kinetic Weapon Damage",
+    "IconPath": "Icons/Tech/5003",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5002
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 5004,
+    "Name": "Kinetic Weapon Damage",
+    "IconPath": "Icons/Tech/5004",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5003
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 5005,
+    "Name": "Kinetic Weapon Damage",
+    "IconPath": "Icons/Tech/5005",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5004
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 5006,
+    "Name": "Kinetic Weapon Damage",
+    "IconPath": "Icons/Tech/5006",
+    "Level": 6,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      5005
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 40000
+      }
+    ]
+  },
+  {
+    "ID": 5101,
+    "Name": "Energy Weapon Damage",
+    "IconPath": "Icons/Tech/5101",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 5102,
+    "Name": "Energy Weapon Damage",
+    "IconPath": "Icons/Tech/5102",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5101
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 5103,
+    "Name": "Energy Weapon Damage",
+    "IconPath": "Icons/Tech/5103",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5102
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 5104,
+    "Name": "Energy Weapon Damage",
+    "IconPath": "Icons/Tech/5104",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5103
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 5105,
+    "Name": "Energy Weapon Damage",
+    "IconPath": "Icons/Tech/5105",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5104
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2000
+      },
+      {
+        "id": 6002,
+        "count": 2000
+      },
+      {
+        "id": 6003,
+        "count": 2000
+      },
+      {
+        "id": 6004,
+        "count": 2000
+      },
+      {
+        "id": 6005,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 5106,
+    "Name": "Energy Weapon Damage",
+    "IconPath": "Icons/Tech/5106",
+    "Level": 6,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      5105
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 150000
+      }
+    ]
+  },
+  {
+    "ID": 5201,
+    "Name": "Explosive Weapon Damage",
+    "IconPath": "Icons/Tech/5201",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 5202,
+    "Name": "Explosive Weapon Damage",
+    "IconPath": "Icons/Tech/5202",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5201
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 5203,
+    "Name": "Explosive Weapon Damage",
+    "IconPath": "Icons/Tech/5203",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5202
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 5204,
+    "Name": "Explosive Weapon Damage",
+    "IconPath": "Icons/Tech/5204",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5203
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 5205,
+    "Name": "Explosive Weapon Damage",
+    "IconPath": "Icons/Tech/5205",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5204
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 5206,
+    "Name": "Explosive Weapon Damage",
+    "IconPath": "Icons/Tech/5206",
+    "Level": 6,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      5205
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 40000
+      }
+    ]
+  },
+  {
+    "ID": 5301,
+    "Name": "Combat Drone Damage",
+    "IconPath": "Icons/Tech/5301",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 300
+      },
+      {
+        "id": 6002,
+        "count": 300
+      }
+    ]
+  },
+  {
+    "ID": 5302,
+    "Name": "Combat Drone Damage",
+    "IconPath": "Icons/Tech/5302",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5301
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 500
+      },
+      {
+        "id": 6002,
+        "count": 500
+      },
+      {
+        "id": 6003,
+        "count": 500
+      }
+    ]
+  },
+  {
+    "ID": 5303,
+    "Name": "Combat Drone Damage",
+    "IconPath": "Icons/Tech/5303",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5302
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 5304,
+    "Name": "Combat Drone Damage",
+    "IconPath": "Icons/Tech/5304",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5303
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 5305,
+    "Name": "Combat Drone Damage",
+    "IconPath": "Icons/Tech/5305",
+    "Level": 5,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      5304
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 94000
+      }
+    ]
+  },
+  {
+    "ID": 5401,
+    "Name": "Combat Drone Attack Speed",
+    "IconPath": "Icons/Tech/5401",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 5402,
+    "Name": "Combat Drone Attack Speed",
+    "IconPath": "Icons/Tech/5402",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5401
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 5403,
+    "Name": "Combat Drone Attack Speed",
+    "IconPath": "Icons/Tech/5403",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5402
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 5404,
+    "Name": "Combat Drone Attack Speed",
+    "IconPath": "Icons/Tech/5404",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5403
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 5405,
+    "Name": "Combat Drone Attack Speed",
+    "IconPath": "Icons/Tech/5405",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5404
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 5601,
+    "Name": "Combat Drone Durability",
+    "IconPath": "Icons/Tech/5601",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 5602,
+    "Name": "Combat Drone Durability",
+    "IconPath": "Icons/Tech/5602",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5601
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 5603,
+    "Name": "Combat Drone Durability",
+    "IconPath": "Icons/Tech/5603",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5602
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 5604,
+    "Name": "Combat Drone Durability",
+    "IconPath": "Icons/Tech/5604",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5603
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 5605,
+    "Name": "Combat Drone Durability",
+    "IconPath": "Icons/Tech/5605",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5604
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 5701,
+    "Name": "Planetary Shield",
+    "IconPath": "Icons/Tech/5701",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      },
+      {
+        "id": 6003,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 5702,
+    "Name": "Planetary Shield",
+    "IconPath": "Icons/Tech/5702",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5701
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 5703,
+    "Name": "Planetary Shield",
+    "IconPath": "Icons/Tech/5703",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5702
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 5704,
+    "Name": "Planetary Shield",
+    "IconPath": "Icons/Tech/5704",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5703
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 5705,
+    "Name": "Planetary Shield",
+    "IconPath": "Icons/Tech/5705",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5704
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 2000
+      }
+    ]
+  },
+  {
+    "ID": 5801,
+    "Name": "Ground Squadron Expansion",
+    "IconPath": "Icons/Tech/5801",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 5802,
+    "Name": "Ground Squadron Expansion",
+    "IconPath": "Icons/Tech/5802",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5801
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 5803,
+    "Name": "Ground Squadron Expansion",
+    "IconPath": "Icons/Tech/5803",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5802
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1600
+      },
+      {
+        "id": 6002,
+        "count": 1600
+      },
+      {
+        "id": 6003,
+        "count": 1600
+      },
+      {
+        "id": 6004,
+        "count": 1600
+      }
+    ]
+  },
+  {
+    "ID": 5804,
+    "Name": "Ground Squadron Expansion",
+    "IconPath": "Icons/Tech/5804",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5803
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 2400
+      },
+      {
+        "id": 6002,
+        "count": 2400
+      },
+      {
+        "id": 6003,
+        "count": 2400
+      },
+      {
+        "id": 6004,
+        "count": 2400
+      }
+    ]
+  },
+  {
+    "ID": 5805,
+    "Name": "Ground Squadron Expansion",
+    "IconPath": "Icons/Tech/5805",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5804
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 4000
+      },
+      {
+        "id": 6002,
+        "count": 4000
+      },
+      {
+        "id": 6003,
+        "count": 4000
+      },
+      {
+        "id": 6004,
+        "count": 4000
+      },
+      {
+        "id": 6005,
+        "count": 4000
+      }
+    ]
+  },
+  {
+    "ID": 5806,
+    "Name": "Ground Squadron Expansion",
+    "IconPath": "Icons/Tech/5806",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      5805
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 6000
+      }
+    ]
+  },
+  {
+    "ID": 5807,
+    "Name": "Ground Squadron Expansion",
+    "IconPath": "Icons/Tech/5807",
+    "Level": 7,
+    "MaxLevel": 7,
+    "PreTechs": [
+      5806
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 8000
+      }
+    ]
+  },
+  {
+    "ID": 5901,
+    "Name": "Space Fleet Expansion",
+    "IconPath": "Icons/Tech/5901",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      },
+      {
+        "id": 6004,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 5902,
+    "Name": "Space Fleet Expansion",
+    "IconPath": "Icons/Tech/5902",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      5901
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 800
+      },
+      {
+        "id": 6002,
+        "count": 800
+      },
+      {
+        "id": 6003,
+        "count": 800
+      },
+      {
+        "id": 6004,
+        "count": 800
+      }
+    ]
+  },
+  {
+    "ID": 5903,
+    "Name": "Space Fleet Expansion",
+    "IconPath": "Icons/Tech/5903",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      5902
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1800
+      },
+      {
+        "id": 6002,
+        "count": 1800
+      },
+      {
+        "id": 6003,
+        "count": 1800
+      },
+      {
+        "id": 6004,
+        "count": 1800
+      }
+    ]
+  },
+  {
+    "ID": 5904,
+    "Name": "Space Fleet Expansion",
+    "IconPath": "Icons/Tech/5904",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      5903
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 4000
+      },
+      {
+        "id": 6002,
+        "count": 4000
+      },
+      {
+        "id": 6003,
+        "count": 4000
+      },
+      {
+        "id": 6004,
+        "count": 4000
+      },
+      {
+        "id": 6005,
+        "count": 4000
+      }
+    ]
+  },
+  {
+    "ID": 5905,
+    "Name": "Space Fleet Expansion",
+    "IconPath": "Icons/Tech/5905",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      5904
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 6000
+      },
+      {
+        "id": 6002,
+        "count": 6000
+      },
+      {
+        "id": 6003,
+        "count": 6000
+      },
+      {
+        "id": 6004,
+        "count": 6000
+      },
+      {
+        "id": 6005,
+        "count": 6000
+      }
+    ]
+  },
+  {
+    "ID": 5906,
+    "Name": "Space Fleet Expansion",
+    "IconPath": "Icons/Tech/5906",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      5905
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 8000
+      }
+    ]
+  },
+  {
+    "ID": 5907,
+    "Name": "Space Fleet Expansion",
+    "IconPath": "Icons/Tech/5907",
+    "Level": 7,
+    "MaxLevel": 7,
+    "PreTechs": [
+      5906
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 12000
+      }
+    ]
+  },
+  {
+    "ID": 6001,
+    "Name": "Enhanced Structure",
+    "IconPath": "Icons/Tech/6001",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 6002,
+    "Name": "Enhanced Structure",
+    "IconPath": "Icons/Tech/6002",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      6001
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 6003,
+    "Name": "Enhanced Structure",
+    "IconPath": "Icons/Tech/6003",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      6002
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 6004,
+    "Name": "Enhanced Structure",
+    "IconPath": "Icons/Tech/6004",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      6003
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 6005,
+    "Name": "Enhanced Structure",
+    "IconPath": "Icons/Tech/6005",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      6004
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1500
+      },
+      {
+        "id": 6002,
+        "count": 1500
+      },
+      {
+        "id": 6003,
+        "count": 1500
+      },
+      {
+        "id": 6004,
+        "count": 1500
+      },
+      {
+        "id": 6005,
+        "count": 1500
+      }
+    ]
+  },
+  {
+    "ID": 6006,
+    "Name": "Enhanced Structure",
+    "IconPath": "Icons/Tech/6006",
+    "Level": 6,
+    "MaxLevel": 10000,
+    "PreTechs": [
+      6005
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 5000
+      }
+    ]
+  },
+  {
+    "ID": 6101,
+    "Name": "EM Weapon Strength",
+    "IconPath": "Icons/Tech/6101",
+    "Level": 1,
+    "MaxLevel": 1,
+    "PreTechs": [],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 100
+      },
+      {
+        "id": 6002,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "ID": 6102,
+    "Name": "EM Weapon Strength",
+    "IconPath": "Icons/Tech/6102",
+    "Level": 2,
+    "MaxLevel": 2,
+    "PreTechs": [
+      6101
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 200
+      },
+      {
+        "id": 6002,
+        "count": 200
+      }
+    ]
+  },
+  {
+    "ID": 6103,
+    "Name": "EM Weapon Strength",
+    "IconPath": "Icons/Tech/6103",
+    "Level": 3,
+    "MaxLevel": 3,
+    "PreTechs": [
+      6102
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 400
+      },
+      {
+        "id": 6002,
+        "count": 400
+      },
+      {
+        "id": 6003,
+        "count": 400
+      }
+    ]
+  },
+  {
+    "ID": 6104,
+    "Name": "EM Weapon Strength",
+    "IconPath": "Icons/Tech/6104",
+    "Level": 4,
+    "MaxLevel": 4,
+    "PreTechs": [
+      6103
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 600
+      },
+      {
+        "id": 6002,
+        "count": 600
+      },
+      {
+        "id": 6003,
+        "count": 600
+      },
+      {
+        "id": 6004,
+        "count": 600
+      }
+    ]
+  },
+  {
+    "ID": 6105,
+    "Name": "EM Weapon Strength",
+    "IconPath": "Icons/Tech/6105",
+    "Level": 5,
+    "MaxLevel": 5,
+    "PreTechs": [
+      6104
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6001,
+        "count": 1000
+      },
+      {
+        "id": 6002,
+        "count": 1000
+      },
+      {
+        "id": 6003,
+        "count": 1000
+      },
+      {
+        "id": 6004,
+        "count": 1000
+      },
+      {
+        "id": 6005,
+        "count": 1000
+      }
+    ]
+  },
+  {
+    "ID": 6106,
+    "Name": "EM Weapon Strength",
+    "IconPath": "Icons/Tech/6106",
+    "Level": 6,
+    "MaxLevel": 6,
+    "PreTechs": [
+      6105
+    ],
+    "Recipes": [],
+    "MarginalCost": [
+      {
+        "id": 6006,
+        "count": 4000
+      }
+    ]
+  }
+]

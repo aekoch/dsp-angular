@@ -1,0 +1,41 @@
+/* Page styling */
+body {
+  background-color: #666; /* Light gray background for the entire page */
+}
+
+/* Header styling */
+header {
+  background-color: #333; /* Dark gray, same as item background */
+  padding: 1rem;
+  color: orange; /* Header text color changed to orange */
+}
+
+/* Navigation and list styling */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  padding: 8px;
+  background-color: orange;
+  border: 2px solid orange; /* Orange border around header items */
+}
+
+/* When hovering over a list item, change the background color */
+nav ul li:hover {
+  background-color: #333;
+  cursor: pointer;
+  a {
+    color: orange;
+  }
+}
+
+/* Link styling */
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}

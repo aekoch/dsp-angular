@@ -1,0 +1,21 @@
+<div *ngIf="item" class="item-details">
+  <div class="item-header">
+    <img src="{{imageUrl(item)}}" alt="{{item.Name}}" class="item-image">
+    <h1 class="item-title">{{item.Name}}</h1>
+  </div>
+  <p class="item-description">{{item.Desc}}</p>
+
+  <div *ngIf="recipesOutputtingItem.length > 0" class="recipes-outputting">
+    <h2>Recipes Creating This Item:</h2>
+    <ul>
+      <li *ngFor="let recipe of recipesOutputtingItem">{{recipe.Name}}</li>
+    </ul>
+  </div>
+
+  <div *ngIf="recipesInputtingItem.length > 0" class="recipes-inputting">
+    <h2>Recipes Using This Item:</h2>
+    <ul>
+      <li *ngFor="let recipe of recipesInputtingItem">{{recipe.Name}}</li>
+    </ul>
+  </div>
+</div>

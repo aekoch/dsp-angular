@@ -99,6 +99,10 @@ export class DataService {
     return this.http.get<Item[]>(`${this.basePath}/items.json`);
   }
 
+  getItem(id: number): Observable<Item | undefined> {
+    return this.getItems().pipe(map(items => items.find(item => item.ID === id) || undefined));
+  }
+
   private getRawRecipes(): Observable<RawRecipe[]> {
     return this.http.get<RawRecipe[]>(`${this.basePath}/recipes.json`);
   }
